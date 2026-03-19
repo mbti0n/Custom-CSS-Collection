@@ -34,12 +34,16 @@ Change the color of like/dislike bar to green/red like the old YouTube UI.
 
 <img width="183" height="64" alt="image" src="https://github.com/user-attachments/assets/20eb5b33-ac24-4174-9d72-8c83a36485b9" />
 
-### No Recommendations on Home Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
+### No Recommendations on Home Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-home-page.css)
 No video recommendations on home page.
+
+<img width="1623" height="574" alt="image" src="https://github.com/user-attachments/assets/50547ac8-5bae-450c-863c-ee5a2b75b410" />
+
 
 ## GitHub
 
 ### GitHub Using Browser Monospace Font | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/github-using-browser-monospace-font.css)
 Change the GitHub code font to the monospace font defined by the browser. 
+
 <img width="758" height="413" alt="image" src="https://github.com/user-attachments/assets/5796e8ab-3738-4a99-a639-99120b82639d" />
 
