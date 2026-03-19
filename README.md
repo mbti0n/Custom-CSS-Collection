@@ -1,17 +1,21 @@
-# Custom-CSS-Collection
+# Custom CSS Collection
 A collection of custom CSS configurations that I created.
 
 ## ChatGPT
 
-### gruvbox + monospace
-Gruvbox and monospace for ChatGPT
-Source code
+### gruvbox + monospace (WIP)
+A modified ChatGPT UI with Gruvbox colorscheme and monospace font
 
-### ClassicGPT
-Bring back the old 2022-2023 UI on modern ChatGPT UI.
-Source code
+### ClassicGPT (WIP)
+Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
 
-## Vorapi v3
+- **Advanced**: Stripped-down ChatGPT to match the functionality of the old UI.
+- **Light**: Only using the colorscheme from the old UI.
+
+### Material Design GPT (WIP)
+
+
+## Vorapi v3 / Classic YouTube layout
 
 ### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/vorapiv3.css)
 ### No Recommendation Pane 
