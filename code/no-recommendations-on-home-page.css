@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           No Recommendations on Home Page
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection/
+@version        1.0.0
+@description    Remove video recommendations on home page
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    #FEwhat_to_watch {
+        display: none;
+    }
+    
+    [class="branded-page-v2-secondary-col"] {
+        display: none;
+    }
+  
+    #appbar-nav {
+        display: none;
+    }
+}
