@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           No Recommendations on Video Page
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection/
+@version        1.0.0
+@description    Remove video recommendation
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    #watch7-sidebar {
+        display: none;
+    }
+    
+    .ytp-endscreen-content {
+        display: none
+    }
+}
