@@ -16,7 +16,7 @@ Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
 
 ## Vorapi v3 / Classic YouTube layout
 
-### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/unified-vorapi-v3.css)
+### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/unified-vorsapi-v3.css)
 A collection of CSS mods for Vorsapi v3 / Classic YouTube layout
 
 ### No Recommendations on Video Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
