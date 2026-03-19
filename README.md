@@ -20,7 +20,7 @@ Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
 A collection of CSS mods for Vorsapi v3 / Classic YouTube layout
 
 ### No Recommendations on Video Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
-Hide recommendation videos on video page.
+Hide video recommendations on video page.
 
 <img width="1163" height="828" alt="image" src="https://github.com/user-attachments/assets/9d696573-7d8e-4955-b48d-42e03cc9342e" />
 
@@ -33,6 +33,9 @@ Change the UI font to Roboto.
 Change the color of like/dislike bar to green/red like the old YouTube UI.
 
 <img width="183" height="64" alt="image" src="https://github.com/user-attachments/assets/20eb5b33-ac24-4174-9d72-8c83a36485b9" />
+
+### No Recommendations on Home Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
+No video recommendations on home page.
 
 ## GitHub
 
