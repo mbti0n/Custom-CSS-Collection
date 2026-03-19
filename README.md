@@ -13,7 +13,8 @@ Source code
 
 ## Vorapi v3
 
-### No Recommendation Pane
+### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/vorapiv3.css)
+### No Recommendation Pane 
 Hide recommendation pane on video page.
 Source code
 
@@ -22,5 +23,6 @@ Change the UI font to Roboto.
 Source code
 
 ## GitHub
-### GitHub Using Browser Monospace Font | [Code](example.com)
+
+### GitHub Using Browser Monospace Font | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/github-using-browser-monospace-font.css)
 Change the GitHub code font to the monospace defined by the browser. 
