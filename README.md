@@ -39,6 +39,19 @@ No video recommendations on home page.
 
 <img width="1623" height="574" alt="image" src="https://github.com/user-attachments/assets/50547ac8-5bae-450c-863c-ee5a2b75b410" />
 
+### Hide Recommended Channels | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/hide-recommended-channels.css)
+Hide recommended channels pane on home page and channel page.
+
+Before:
+
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/6870624c-ff2b-4a04-acce-683a6e6a3146" />
+
+After:
+
+<img width="1198" height="793" alt="image" src="https://github.com/user-attachments/assets/d081e1e4-f92b-43fe-b5a0-7f2f157365f5" />
+
+
+
 
 ## GitHub
 
