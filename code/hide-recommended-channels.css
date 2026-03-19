@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Hide Recommended Channels
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection/
+@version        1.0.0
+@description    Hide recommended channels pane on home page and channel page.
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    [class="branded-page-v2-secondary-col"] {
+        display: none;
+    }
+}
