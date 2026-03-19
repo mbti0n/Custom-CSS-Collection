@@ -8,7 +8,6 @@ A modified ChatGPT UI with Gruvbox colorscheme and monospace font
 
 ### ClassicGPT (WIP)
 Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
-
 - **Advanced**: Stripped-down ChatGPT to match the functionality of the old UI.
 - **Light**: Only using the colorscheme from the old UI.
 
@@ -18,8 +17,8 @@ Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
 ## Vorapi v3 / Classic YouTube layout
 
 ### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/vorapiv3.css)
-### No Recommendation Pane 
-Hide recommendation pane on video page.
+### No Recommendation Pane | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
+Hide recommendation videos on video page.
 
 ### Roboto font for v3 | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/roboto-font-for-v3.css)
 Change the UI font to Roboto.
