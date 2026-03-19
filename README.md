@@ -32,3 +32,5 @@ Change the color of like/dislike bar to green/red like the old YouTube UI.
 
 ### GitHub Using Browser Monospace Font | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/github-using-browser-monospace-font.css)
 Change the GitHub code font to the monospace defined by the browser. 
+<img width="758" height="413" alt="image" src="https://github.com/user-attachments/assets/5796e8ab-3738-4a99-a639-99120b82639d" />
+
