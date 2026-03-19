@@ -24,7 +24,9 @@ Source code
 
 ### Roboto for v3
 Change the UI font to Roboto.
-Source code
+
+### Like / Dislike Green Red Bar | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/like-dislike-green-red-bar.css)
+Change the color of like/dislike bar to green/red like the old YouTube UI.
 
 ## GitHub
 
