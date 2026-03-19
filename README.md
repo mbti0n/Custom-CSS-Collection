@@ -19,3 +19,7 @@ Source code
 ### Roboto for v3
 Change the UI font to Roboto.
 Source code
+
+## GitHub
+### GitHub Using Browser Monospace Font
+Change the GitHub code font to the monospace defined by the browser.
