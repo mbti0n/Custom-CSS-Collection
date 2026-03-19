@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           Vorsapi v3 Mod
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection/
+@version        1.0.0
+@description    A collection of CSS mods for Vorsapi v3 / Classic YouTube layout
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    /* Font modifications */
+    * {
+        font-family: "Roboto";
+    }
+    
+    #masthead-search-term {
+        font-family: "Roboto"
+    }
+    
+    #eow-title {
+        letter-spacing: 0em !important;
+    }
+    
+    /* Like/dislike bar color */
+    .video-extras-sparkbar-likes {
+        background: green
+    }
+    
+    .video-extras-sparkbar-dislikes {
+        background: red
+    }
+    
+    /* Hide recommendations on video page */
+    .ytp-endscreen-content {
+        display: none
+    }
+    
+    #watch7-sidebar {
+        display: none;
+    }
+}
