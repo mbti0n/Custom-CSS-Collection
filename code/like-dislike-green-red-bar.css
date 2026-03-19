@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Like / Dislike Green Red Bar
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection/
+@version        1.0.0
+@description    Change the color of like/dislike bar to green/red like the old YouTube UI.
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    .video-extras-sparkbar-likes {
+        background: green
+    }
+    
+    .video-extras-sparkbar-dislikes {
+        background: red
+    }
+}
