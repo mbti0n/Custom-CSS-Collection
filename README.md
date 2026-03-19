@@ -22,4 +22,4 @@ Source code
 
 ## GitHub
 ### GitHub Using Browser Monospace Font
-Change the GitHub code font to the monospace defined by the browser.
+Change the GitHub code font to the monospace defined by the browser. [Code](example.com)
