@@ -8,11 +8,12 @@ A modified ChatGPT UI with Gruvbox colorscheme and monospace font
 
 ### ClassicGPT (WIP)
 Bring back the old 2022-2023 UI on modern ChatGPT UI. Coming in 2 versions.
-- **Advanced**: Stripped-down ChatGPT to match the functionality of the old UI.
+- **Advanced | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/classicGPT-advanced.css)**: Stripped-down ChatGPT to match the functionality of the old UI.
+<img width="1637" height="982" alt="image" src="https://github.com/user-attachments/assets/9f70d29f-82ff-439f-b2a5-7b54af29cb4c" />
+
 - **Light**: Only using the colorscheme from the old UI.
 
 ### Material Design GPT (WIP)
-
 
 ## Vorapi v3 / Classic YouTube layout
 
