@@ -1,0 +1,351 @@
+/* ==UserStyle==
+@name           ClassicGPT Advanced
+@namespace      https://github.com/mbti0n/Custom-CSS-Collection
+@version        1.0.0
+@description    Stripped-down ChatGPT to match the functionality of the old UI.
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://chatgpt.com/c/"), url-prefix("https://chatgpt.com/") {
+    /* Completely hide ChatGPT header */
+    :root {
+        --header-height: 0px !important;
+    }
+    #page-header {
+        display: none;
+    }
+    
+    /* General border radius for buttons */
+    button {
+        border-radius: 5px
+    }
+    
+    /* General border radius for popups */
+    [id^="radix-_r_"], [id^="radix-_R_"] {
+        border-radius: 7px
+    }
+    
+    /* Sidebar background color */
+    [class="group/scrollport relative flex h-full w-full flex-1 flex-col overflow-y-auto transition-opacity motion-safe:duration-500"] {
+        background-color: #202123
+    }
+    aside {
+        background-color: #202123;
+    }
+    
+    /* Sidebar - Hide the top buttons (ChatGPT and Collapse sidebar) */
+    [class="touch:px-1.5 px-2"] {
+        display: none;
+    }
+    
+    /* Sidebar - Hide the keyboard shortcut hint */
+    kbd {
+        display: none
+    }
+    
+    /* Sidebar - New chat button */
+    [data-testid="create-new-chat-button"] {
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: #666666
+    }
+    
+    /* Sidebar - Hide the Search function */
+    aside [data-sidebar-item="true"]:nth-child(2) {
+        display: none;
+    }
+    
+    /* Sidebar - Hide Images tab */
+    [data-testid="sidebar-item-library"] {
+        display: none
+    }
+
+    /* Sidebar - Hide extra tabs (Apps, GPTs, Deep research, etc.) */
+    [class="pb-[calc(var(--sidebar-section-margin-top)-var(--sidebar-section-first-margin-top))]"] {
+        display: none
+    }
+    
+    /* Sidebar - Spacing between the New chat button and chat list */
+    #history {
+        padding-top: 15px;
+    }
+    
+    /* Sidebar - Hide the black background between New chat button and chat history */
+    [class="pt-(--sidebar-section-first-margin-top) last:mb-5 tall:sticky tall:top-header-height tall:z-20 not-tall:relative bg-(--sidebar-mask-bg,var(--bg-elevated-secondary)) [--sticky-spacer:6px]"] {
+        --sticky-spacer: 0px;
+    }
+    
+    /* Sidebar - Hide Your chat button */
+    [class="text-token-text-tertiary flex w-full items-center justify-start gap-0.5 px-4 py-1.5"] {
+        display: none
+    }
+    
+    /* Chat option popup - Hide Archive, Share and Group chat buttons */
+    div.gap-1\.5.__menu-item.group:nth-of-type(1) {
+        display: none
+    }
+    div.gap-1\.5.__menu-item.group:nth-of-type(2) {
+        display: none
+    }
+    div.gap-1\.5.__menu-item.group:nth-of-type(6) {
+        display: none
+    }
+
+    /* Chat background */
+    [class="@container/main relative flex min-w-0 flex-1 flex-col -translate-y-[calc(env(safe-area-inset-bottom,0px)/2)] pt-[calc(env(safe-area-inset-bottom,0px)/2)]"] {
+        background: transparent;
+    }
+    [class="flex flex-col text-sm pb-25"] {
+        border-radius: 0px !important;
+        background: #343541
+    }
+    
+    /* Sidebar - Chat list spacing */
+    [class="group __menu-item hoverable"] {
+        border-radius: 7px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px
+    }
+    
+    /* Sidebar - Account info */
+    [class="relative sticky bottom-0 z-30 pt-2 pb-1.5 empty:hidden bg-token-bg-elevated-secondary"] {
+        background: #202123
+    }
+    
+    /* Main chat background */
+    #thread {
+        background: #343541
+    }
+    [class="max-w-full max-sm:hidden min-h-[108px] h-[70px]"] {
+        background-color: #343541;
+    }
+    
+    /* Delete a conversation - Confirmation */
+    [class="popover bg-token-bg-primary relative col-auto col-start-2 row-auto row-start-2 h-full w-full text-start start-1/2 ltr:-translate-x-1/2 rtl:translate-x-1/2 rounded-2xl shadow-long flex flex-col focus:outline-hidden max-w-md overflow-hidden"] {
+        border-radius: 7px;
+    }
+    
+    /* Assistant response */
+    [class="text-base my-auto mx-auto [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)"] {
+        padding-top: 35px;
+        padding-bottom: 20px;
+        background-color: #444654;
+        border-radius: 0px
+    }
+    [class="text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)"] {
+        border-radius: 0px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        background-color: #444654
+    }
+    
+    /* Assistant response - Hide More option button */
+    [class="text-token-text-secondary hover:bg-token-bg-secondary touch:w-10 flex h-8 w-8 items-center justify-center rounded-lg"] {
+        display: none
+    }
+    
+    /* Assistant response - Hide Share button */
+    [class="text-token-text-secondary hover:bg-token-bg-secondary rounded-lg"][aria-label="Share"] {
+        display: none
+    }
+    
+    /* Assistant response - Source button */
+    [class="text-token-text-secondary mt-[-1px] text-[13px] font-medium"] {
+        font-size: 12px !important;
+    }
+    
+    /* User message - Copy / Edit buttons */
+    [class="touch:-me-2 touch:-ms-3.5 -ms-2.5 -me-1 flex flex-wrap items-center gap-y-4 p-1 select-none focus-within:transition-none hover:transition-none touch:pointer-events-auto touch:opacity-100 duration-300 group-hover/turn-messages:delay-300 pointer-events-none opacity-0 motion-safe:transition-opacity group-hover/turn-messages:pointer-events-auto group-hover/turn-messages:opacity-100 group-focus-within/turn-messages:pointer-events-auto group-focus-within/turn-messages:opacity-100 has-data-[state=open]:pointer-events-auto has-data-[state=open]:opacity-100"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+    }
+    
+    /* User message - Full width */
+    [class="user-message-bubble-color corner-superellipse/0.98 relative rounded-[22px] px-4 py-2.5 leading-6 max-w-(--user-chat-width,70%)"] {
+        background-color: transparent;
+        padding: 0px;
+        width: 100%;
+        margin-right: auto;
+        --user-chat-width: 100%;
+    }
+    [class="flex w-[var(--user-chat-width,70%)] flex-col items-end"] {
+        background-color: transparent;
+        width: 100%;
+        --user-chat-width: 100%;
+    }
+
+    /* User message - First message top padding */
+    [class="text-base my-auto mx-auto pt-3 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)"] {
+        padding-top: 40px
+    }
+    
+    /* User message - Force shifting attachments to the left */
+    [class="flex flex-row items-center justify-end gap-1"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+    }
+    [class="flex flex-row items-center justify-end gap-1  max-w-72"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+    }
+    [class="flex flex-row items-center justify-end gap-1  max-w-80 sm:max-w-100"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+    }
+    [class="flex flex-row items-center justify-end gap-1 flex-wrap max-w-72"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+        justify-content: flex-start !important;
+    }
+    [class="flex flex-row items-center justify-end gap-1 flex-wrap max-w-80 sm:max-w-100"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+        justify-content: flex-start !important;
+    }
+    [class="flex gap-2 flex-wrap mt-1 max-w-[80%] justify-end"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+        justify-content: flex-start !important;
+    }
+    [class="flex flex-row items-center justify-end gap-1 flex-wrap max-w-52"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+        justify-content: flex-start !important;
+    }
+    
+    /* User message - Message under attachments */
+    [class="user-message-bubble-color corner-superellipse/0.98 relative rounded-[22px] px-4 py-2.5 leading-6 rounded-se-lg max-w-(--user-chat-width,70%)"] {
+        background-color: transparent;
+        padding: 0px;
+        width: 100%;
+        margin-right: auto
+    }
+    
+    /* Code block */
+    [class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"] {
+        border-radius: 7px;
+        background-color: black;
+    }
+    [class="cm-content q9tKkq_readonly"] {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        line-height: 25px !important;
+    }
+    [class="flex w-full items-center justify-between py-1.5 ps-4 pe-1.5 font-sans md:ps-5 bg-token-bg-elevated-secondary"] {
+        background-color: #343541;
+        height: 35px;
+    }
+    
+    /* Syntax highlighting color */
+    .ͼm, .ͼv{
+        color: #2D90CC
+    }
+    
+    .ͼr{
+        color: #009D50
+    }
+    
+    /* Code block - Hide edit button */
+    [class="btn relative group-focus-within/dialog:focus-visible:[outline-width:1.5px] group-focus-within/dialog:focus-visible:[outline-offset:2.5px] group-focus-within/dialog:focus-visible:[outline-style:solid] group-focus-within/dialog:focus-visible:[outline-color:var(--text-primary)] btn-ghost size-9"] {
+        display: none
+    }
+    
+    /* Code block - Hide code run / Play button */
+    [class="group relative flex gap-0.5 rounded-full p-0.5 bg-token-bg-secondary dark:bg-gray-1000"] {
+        display: none
+    }
+    
+    /* What is this button */
+    [class="btn relative group-focus-within/dialog:focus-visible:[outline-width:1.5px] group-focus-within/dialog:focus-visible:[outline-offset:2.5px] group-focus-within/dialog:focus-visible:[outline-style:solid] group-focus-within/dialog:focus-visible:[outline-color:var(--text-primary)] btn-ghost text-token-text-tertiary hover:text-token-text-secondary -me-4 border-0 font-sans hover:bg-transparent! active:bg-transparent!"] {
+        display: none
+    }
+
+    /* Message input box */
+    [class="bg-token-bg-primary corner-superellipse/1.1 cursor-text overflow-clip bg-clip-padding p-2.5 contain-inline-size motion-safe:transition-colors motion-safe:duration-200 motion-safe:ease-in-out dark:bg-[#303030] grid grid-cols-[auto_1fr_auto] [grid-template-areas:'header_header_header'_'leading_primary_trailing'_'._footer_.'] group-data-expanded/composer:[grid-template-areas:'header_header_header'_'primary_primary_primary'_'leading_footer_trailing'] shadow-short-composer"] {
+        border-radius: 3px !important;
+        background: #40414F !important;
+    }
+    [class="text-base mx-auto [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)"] {
+        background-color: transparent;
+    }
+    
+    /* Message input box - Hide Voice chat button */
+    [class="composer-submit-button-color text-submit-btn-text flex h-9 w-9 items-center justify-center rounded-full transition-colors hover:opacity-70 focus-visible:outline-black focus-visible:outline-none disabled:text-[#f4f4f4] disabled:opacity-30 dark:focus-visible:outline-white"] {
+        display: none;
+    }
+    
+    /* Message input box - Hide Dictation button */
+    [class="composer-btn h-9 min-h-9 w-9 min-w-9"] {
+        display: none;
+    }
+    
+    /* Message input box - Compose button */
+    #composer-submit-button {
+        background-color: transparent;
+        color: white
+    }
+    
+    /* Edit message */
+    [class="bg-token-main-surface-tertiary rounded-3xl px-3 py-3"] {
+        background: transparent;
+        padding: 0px !important;
+    }
+    [class="m-2 max-h-[25dvh] overflow-auto"] {
+        margin: 0px !important;
+    }
+    
+    /* Edit message - Cancel/Send buttons */
+    [class="flex justify-end gap-2"] {
+        margin-left: 0px !important;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-top: 15px;
+        justify-content: flex-start !important;
+    }
+    
+    /* Message input box - Bottom transparent gradient */
+    .content-fade.single-line::after {
+        opacity: 0.5;
+    }
+
+    /* Scroll to buttom button */
+    [class="cursor-pointer absolute z-30 rounded-full bg-clip-padding border text-token-text-secondary border-token-border-default end-1/2 translate-x-1/2 bg-token-main-surface-primary w-8 h-8 flex items-center justify-center print:hidden bottom-[calc(100%+6*var(--spacing)+var(--thread-scroll-to-bottom-banner-offset,0px))]"] {
+        border-radius: 50px;
+    }
+    /* ChatGPT can make mistakes - Background color */
+    [class="-mt-4 text-token-text-secondary relative w-full overflow-hidden text-center text-xs [view-transition-name:var(--vt-disclaimer)] md:px-[60px]"] {
+        background-color: transparent
+    }
+    
+    /* Others */
+    [class="btn relative group-focus-within/dialog:focus-visible:[outline-width:1.5px] group-focus-within/dialog:focus-visible:[outline-offset:2.5px] group-focus-within/dialog:focus-visible:[outline-style:solid] group-focus-within/dialog:focus-visible:[outline-color:var(--text-primary)] btn-ghost border-token-border-default ms-2 border font-sans"] {
+        border: 0px solid;
+    }  
+    [class="divide-token-border-light w-full flex-col divide-y p-2.5 max-sm:px-0 flex"] {
+        display: none
+    }
+    [class="group/footnote bg-token-bg-primary flex w-fit items-center gap-1.5 px-3 py-1.5 transition-shadow duration-700 hover:bg-token-bg-tertiary rounded-3xl"] {
+        border-radius: 0px !important;
+        height: 30px !important;
+    }
+        [class="group relative flex gap-0.5 rounded-full p-0.5 bg-token-bg-secondary dark:bg-gray-1000"] {
+        background-color: transparent
+    }
+    [class="to-token-bg-primary absolute end-0 top-0 z-10 h-full w-4 bg-gradient-to-r from-transparent max-sm:hidden md:w-6 lg:w-8"] {
+        display: none
+    }
+    [class="h-header-height screen-arch draggable no-draggable-children touch:p-2.5 h-header-height bg-token-bg-primary pointer-events-none top-0 z-20 flex items-center justify-between gap-8 p-2 select-none [view-transition-name:var(--vt-page-header)] *:pointer-events-auto"] {
+        display: none
+    }
+    [class="from-token-bg-primary absolute start-0 top-0 z-10 h-full w-4 bg-gradient-to-r to-transparent max-sm:hidden md:w-6 lg:w-8"] {
+        display: none
+    }
+    [class="from-token-bg-primary absolute start-0 top-0 z-10 hidden h-full w-4 bg-gradient-to-r to-transparent sm:block lg:w-6 xl:w-10"] {
+        display: none
+    }
+    [class="from-token-bg-primary absolute end-0 top-0 z-10 hidden h-full w-4 bg-gradient-to-l to-transparent sm:block lg:w-6 xl:w-10"] {
+        display: none
+    }
+    [class="group __menu-item hoverable gap-1.5"] {
+        border-radius: 7px;
+    }
+}
