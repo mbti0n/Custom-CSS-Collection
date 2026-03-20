@@ -6,7 +6,7 @@ A collection of custom CSS configurations / userscripts that I created.
 ### gruvbox + monospace (WIP)
 A modified ChatGPT UI with Gruvbox colorscheme and monospace font
 
-### ClassicGPT | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/classicGPT-advanced.css)
+### ClassicGPT | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/classicGPT.css)
 Stripped-down ChatGPT to match the functionality of the old UI from 2022-2023.
 
 <img width="1636" height="981" alt="image" src="https://github.com/user-attachments/assets/0ab49760-bc96-468e-adec-e98b71387626" />
