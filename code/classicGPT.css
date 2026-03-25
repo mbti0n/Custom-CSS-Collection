@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ClassicGPT
 @namespace      https://github.com/mbti0n/Custom-CSS-Collection
-@version        1.0.1
+@version        1.1.0
 @description    Stripped-down ChatGPT to match the functionality of the old UI.
 @author         Me
 ==/UserStyle== */
@@ -54,6 +54,11 @@
         display: none;
     }
     
+    /* Sidebar - Hide Library button */
+    [data-testid="sidebar-item-recall"] {
+        display: none
+    }
+    
     /* Sidebar - Hide Images tab */
     [data-testid="sidebar-item-library"] {
         display: none
@@ -96,6 +101,9 @@
     }
     [class="flex flex-col text-sm pb-25"] {
         border-radius: 0px !important;
+        background: #343541
+    }
+    [class="bg-token-main-surface-primary sticky z-1 px-(--thread-content-margin) text-center text-lg text-pretty max-md:top-(--header-height)"] { 
         background: #343541
     }
     
