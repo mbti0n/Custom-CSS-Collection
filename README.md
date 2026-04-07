@@ -17,8 +17,8 @@ Stripped-down ChatGPT to match the functionality of the old UI from 2022-2023.
 
 ## Vorapi v3 / Classic YouTube layout
 
-### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/unified-vorsapi-v3.css)
-A collection of CSS mods for Vorsapi v3 / Classic YouTube layout
+### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/unified-vorapis-v3.css)
+A collection of CSS mods for vorapis v3 / Classic YouTube layout
 
 ### No Recommendations on Video Page | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/no-recommendations-on-video-page.css)
 Hide video recommendations on video page.
