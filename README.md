@@ -15,7 +15,7 @@ Stripped-down ChatGPT to match the functionality of the old UI from 2022-2023.
 
 ### Material Design GPT (WIP)
 
-## Vorapi v3 / Classic YouTube layout
+## Vorapis v3 / Classic YouTube layout
 
 ### Unified | [Code](https://github.com/mbti0n/Custom-CSS-Collection/blob/main/code/unified-vorapis-v3.css)
 A collection of CSS mods for vorapis v3 / Classic YouTube layout
