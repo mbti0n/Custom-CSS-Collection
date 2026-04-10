@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ClassicGPT
 @namespace      https://github.com/mbti0n/Custom-CSS-Collection
-@version        1.1.0
+@version        1.2
 @description    Stripped-down ChatGPT to match the functionality of the old UI.
 @author         Me
 ==/UserStyle== */
@@ -50,7 +50,7 @@
     }
     
     /* Sidebar - Hide the Search function */
-    aside [data-sidebar-item="true"]:nth-child(2) {
+    aside [data-sidebar-item="true"]:nth-child(2), [class="group __menu-item hoverable w-full"] {
         display: none;
     }
     
@@ -268,10 +268,11 @@
     }
 
     /* Message input box */
-    [class="bg-token-bg-primary corner-superellipse/1.1 cursor-text overflow-clip bg-clip-padding p-2.5 contain-inline-size motion-safe:transition-colors motion-safe:duration-200 motion-safe:ease-in-out dark:bg-[#303030] grid grid-cols-[auto_1fr_auto] [grid-template-areas:'header_header_header'_'leading_primary_trailing'_'._footer_.'] group-data-expanded/composer:[grid-template-areas:'header_header_header'_'primary_primary_primary'_'leading_footer_trailing'] shadow-short-composer"] {
+    [class="bg-token-bg-primary corner-superellipse/1.1 cursor-text overflow-clip bg-clip-padding p-2.5 contain-inline-size motion-safe:transition-colors motion-safe:duration-200 motion-safe:ease-in-out dark:bg-[#303030] grid grid-cols-[auto_1fr_auto] [grid-template-areas:'header_header_header'_'leading_primary_trailing'_'._footer_.'] group-data-expanded/composer:[grid-template-areas:'header_header_header'_'primary_primary_primary'_'leading_footer_trailing'] shadow-short-composer"], [class="bg-token-bg-primary dark:bg-token-bg-elevated-primary corner-superellipse/1.1 cursor-text overflow-clip bg-clip-padding p-2.5 contain-inline-size motion-safe:transition-colors motion-safe:duration-200 motion-safe:ease-in-out grid grid-cols-[auto_1fr_auto] [grid-template-areas:'header_header_header'_'leading_primary_trailing'_'._footer_.'] group-data-expanded/composer:[grid-template-areas:'header_header_header'_'primary_primary_primary'_'leading_footer_trailing'] shadow-short-composer"] {
         border-radius: 3px !important;
         background: #40414F !important;
     }
+
     [class="text-base mx-auto [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)"] {
         background-color: transparent;
     }
